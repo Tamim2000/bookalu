@@ -1,0 +1,278 @@
+/************************************** Responsive design here ********************/
+@media (max-width: 1200px) {
+  .row.hero-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+  }
+  section.hero .hero-right {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .hero .hero-wrapper {
+    padding: 50px 0px !important;
+  }
+}
+
+@media (max-width: 992px) {
+  .header-container {
+    max-width: 95%;
+  }
+  section.info .info-box-wrapper h3 {
+    font-size: 24px;
+  }
+  section.info p {
+    font-size: 16px;
+  }
+  .footer-container {
+    max-width: 850px;
+  }
+  .footer-menu a {
+    padding: 0px 5px;
+  }
+  .footer-menu a::after {
+    right: -5px;
+    top: 4px;
+  }
+}
+
+@media (max-width: 768px) {
+  .site-logo img {
+    width: 120px;
+  }
+  header .log-area .log-in {
+    margin-right: 0;
+  }
+  header .log-area .sign-up {
+    padding: 10px 15px;
+    margin-right: 0;
+  }
+  header .log-area .log-in {
+    padding: 10px 15px;
+  }
+  .header-nav::after {
+    bottom: 8px;
+  }
+  header .log-area {
+    margin-left: 5px;
+  }
+  section.hero .pera-wrapper {
+    padding: 80px 0px;
+  }
+  .container, .container-sm {
+    max-width: 640px;
+  }
+  section.hero .hero-left h2 {
+    width: 500px;
+  }
+  section.info img {
+    width: 50px;
+  }
+  section.info .info-box-wrapper h3 {
+    font-size: 20px;
+    margin: 10px 0px;
+  }
+  section.info p {
+    font-size: 13px;
+  }
+  section.info {
+    padding: 50px 0px;
+  }
+  .md-mt-0 {
+    margin-top: 15px !important;
+  }
+  .footer-left a {
+    font-size: 14px;
+    margin: 0;
+    margin-left: 5px;
+  }
+  .footer-left span {
+    font-size: 12px;
+    margin-right: 5px;
+  }
+  .container.footer-container {
+    max-width: 750px;
+  }
+  .footer-menu a::after {
+    right: -4px;
+    top: 5px;
+  }
+}
+
+@media (max-width: 576px) {
+  .header-nav {
+    display: none;
+  }
+  .mobile-nav {
+    display: block !important;
+    border-top: 1px solid #bfbfbf60;
+  }
+  .header-nav-mobile {
+    display: block !important;
+    padding: 10px 0px;
+  }
+  section.info .info-box-wrapper h3 {
+    font-size: 18px;
+    margin: 8px 0px;
+  }
+  section.hero .hero-left h2 {
+    width: 400px;
+    font-size: 32px;
+  }
+  section.info p {
+    font-size: 8px;
+  }
+  .footer-left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .footer-menu ul {
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  section.hero .hero-left h2 {
+    font-size: 26px;
+    margin-bottom: 15px;
+    width: 300px;
+  }
+  .hero .hero-wrapper {
+    padding: 30px 0px !important;
+  }
+  section.hero .pera-wrapper {
+    padding: 40px 0px;
+  }
+  header .header-wrapper {
+    padding: 0px 0px;
+  }
+  .header-container {
+    width: 100%;
+    padding: 0;
+    padding-left: 5px;
+  }
+  .log-area .log-in {
+    background: #f0f0f0;
+    margin-right: -4px !important;
+  }
+  .header-nav-mobile a {
+    margin-right: 25px;
+  }
+  .header-nav-mobile #business {
+    margin: 0 !important;
+  }
+  .app-store-logo img {
+    width: 130px;
+    margin-bottom: -25px;
+  }
+  section.info img {
+    width: 25px;
+  }
+  section.info .info-box-wrapper h3 {
+    font-size: 10px;
+    margin: 8px 0px;
+  }
+  section.info p {
+    font-size: 6px;
+  }
+  .md-mt-0 {
+    margin-top: 0px !important;
+  }
+  section.info {
+    padding: 25px 0px;
+  }
+  .footer-menu a {
+    font-size: 11px;
+  }
+  .footer-menu a::after {
+    top: 3px;
+  }
+}
+
+/**************************************Customer and business page Responsive ********************/
+@media (max-width: 992px) {
+  .info-icon-area .icon-wrapper .single-icon h5 {
+    font-size: 16px;
+  }
+  .info-icon-area .icon-wrapper .single-icon img {
+    width: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .info-icon-area .icon-wrapper .single-icon h5 {
+    font-size: 14px;
+  }
+  .info-icon-area {
+    padding: 25px 0px;
+  }
+  .business-container {
+    max-width: 715px !important;
+  }
+  .busines-info .single-info span {
+    font-size: 16px;
+  }
+  .busines-info .info-box-wrapper {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 576px) {
+  .info-icon-area .icon-wrapper .single-icon img {
+    width: 45px;
+  }
+  .info-icon-area .icon-wrapper .single-icon h5 {
+    font-size: 12px;
+  }
+  .info-icon-area {
+    padding: 0;
+    padding-top: 20px;
+    padding-bottom: 25px;
+  }
+  .busines-info .single-info span {
+    font-size: 14px;
+  }
+  .busines-info .single-info img {
+    width: 60px;
+  }
+  section.hero .pera-wrapper {
+    padding: 50px 0px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .info-icon-area .icon-wrapper .single-icon img {
+    width: 35px;
+  }
+  .info-icon-area .icon-wrapper .single-icon h5 {
+    font-size: 8px;
+  }
+  .business-pera {
+    padding: 50px 0px;
+  }
+  .busines-info .single-info span {
+    font-size: 10px;
+  }
+  .busines-info .single-info img {
+    width: 50px;
+  }
+  .busines-info .single-info .social-icon {
+    width: 80px;
+  }
+  .busines-info .charge span {
+    margin-top: 30px;
+    font-size: 18px;
+  }
+  .busines-info .info-box-wrapper {
+    margin-bottom: 15px;
+  }
+  .busines-info {
+    padding-bottom: 25px;
+  }
+}

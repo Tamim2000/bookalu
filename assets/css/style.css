@@ -1,0 +1,383 @@
+/**** Basic setup here *****/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Liberation Sans';
+  -webkit-transition: .3s all ease-in-out;
+  transition: .3s all ease-in-out;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  font-family: 'Helvetica Neue Condensed';
+  font-weight: bold;
+  font-style: normal;
+  color: #000;
+}
+
+a, span, i, p {
+  display: inline-block;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/****header Section start ******/
+header {
+  border-bottom: 1px solid rgba(221, 221, 221, 0.39);
+}
+
+header .header-wrapper {
+  padding: 8px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header ul li {
+  display: inline-block;
+}
+
+header ul li a {
+  margin-right: 20px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+header .log-area {
+  margin-left: 20px;
+}
+
+header .log-area .log-in {
+  color: #000;
+  margin-right: 20px;
+  padding: 15px 25px;
+}
+
+header .log-area .log-in:hover {
+  color: #fff;
+  background: #00a8e5;
+}
+
+header .log-area .sign-up {
+  color: #fff;
+  background: #00a8e5;
+  padding: 15px 25px;
+  margin-right: 0;
+}
+
+header .log-area .sign-up:hover {
+  color: #000;
+}
+
+.header-nav {
+  padding-right: 20px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-nav a {
+  color: #000;
+}
+
+.header-nav a:active {
+  border-bottom: 1px solid #000;
+}
+
+.header-nav a:hover {
+  border-bottom: 1px solid #000;
+}
+
+.header-nav .active {
+  border-bottom: 1px solid #000;
+}
+
+.header-nav::after {
+  position: absolute;
+  content: "";
+  height: 25px;
+  width: 1px;
+  background: #000;
+  right: 0;
+  bottom: 13px;
+}
+
+.home-page-nav #about {
+  border-bottom: 1px solid #000;
+}
+
+.customer-page #customer {
+  border-bottom: 1px solid #000;
+}
+
+.business-page #business {
+  border-bottom: 1px solid #000;
+}
+
+.mobile-nav .header-nav {
+  display: none;
+}
+
+.mobile-nav .header-nav::after {
+  display: none;
+}
+
+/*** Hero section start *****/
+section.hero .hero-wrapper {
+  padding: 95px 0px;
+  border-bottom: 1px solid #bfbfbf;
+}
+
+section.hero .hero-left h2 {
+  font-size: 41px;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+}
+
+section.hero .hero-left span {
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-size: 17px;
+}
+
+section.hero .hero-left p {
+  font-size: 17px;
+  color: #000;
+}
+
+section.hero .hero-right {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: right;
+}
+
+section.hero .pera-wrapper {
+  padding: 100px 0px;
+}
+
+section.hero .pera-wrapper p {
+  font-size: 17px;
+  color: #000;
+}
+
+/**** Informaition section ******/
+section.info {
+  border-top: 1.5px solid #000;
+  background: #00a8e5;
+  padding: 100px 0px;
+}
+
+section.info .info-wrapper {
+  max-width: 1400px;
+  margin: auto;
+}
+
+section.info .single-info {
+  text-align: center;
+}
+
+section.info .info-box-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section.info img {
+  width: 95px;
+}
+
+section.info h3 {
+  color: #fff;
+  margin: 15px 0px;
+  font-size: 32px;
+}
+
+section.info p {
+  color: #000;
+  font-size: 22px;
+}
+
+/***** footer section ******/
+footer {
+  padding: 10px 0px;
+  background: #000;
+}
+
+.footer-left span {
+  font-size: 14px;
+  color: #fff;
+  margin-right: 25px;
+}
+
+.footer-left a {
+  font-size: 16px;
+  color: #fff;
+  margin: 0px 5px;
+}
+
+.social-link {
+  display: inline-block;
+}
+
+.footer-menu ul {
+  text-align: right;
+}
+
+.footer-menu li {
+  display: inline-block;
+}
+
+.footer-menu a {
+  color: #fff;
+  padding: 0px 12px;
+  position: relative;
+  font-size: 14px;
+}
+
+.footer-menu a::after {
+  position: absolute;
+  content: '';
+  top: 6px;
+  right: 0;
+  background: #fff;
+  height: 12px;
+  width: 1px;
+}
+
+.footer-menu #support::after {
+  display: none;
+  padding: 0;
+}
+
+/******** Customer page*********************/
+.customer-hero .hero-left p {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.info-icon-area {
+  padding: 70px 0px;
+  background: #00a8e5;
+}
+
+.info-icon-area .icon-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  margin: 30px 0px;
+}
+
+.info-icon-area .icon-wrapper .single-icon img {
+  width: 70px;
+}
+
+.info-icon-area .icon-wrapper .single-icon h5 {
+  font-family: 'Liberation Sans';
+  font-size: 18px;
+  font-weight: 200;
+  margin-top: 10px;
+}
+
+.info-icon-area .many-more {
+  text-align: end;
+}
+
+.info-icon-area .many-more a {
+  color: #fff;
+}
+
+/******** Business page*********************/
+.busines-info {
+  padding-bottom: 50px;
+}
+
+.busines-info .info-box-wrapper {
+  margin-bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.busines-info .single-info {
+  text-align: center;
+}
+
+.busines-info .single-info span {
+  display: block;
+  color: #000;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.busines-info .single-info span a {
+  color: #00a8e5;
+  font-weight: 600;
+}
+
+.busines-info .single-info img {
+  width: 80px;
+  margin-bottom: 10px;
+}
+
+.busines-info .single-info .social-icon {
+  width: 130px;
+}
+
+.busines-info .charge span {
+  display: block;
+  text-align: end;
+  color: #00a8e5;
+  margin-top: 55px;
+  font-size: 24px;
+}
+
+.business-pera {
+  padding: 80px 0px;
+  text-align: center;
+}
+
